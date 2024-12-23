@@ -70,7 +70,8 @@ The theme can be toggled using a Redux Toolkit-managed state.
 ### Steps
 1. **Clone the Repository**  
    ```bash
-   [git clone https://github.com/your-repo-name/base64-app.git](https://github.com/mun1bxD/Base64Application.git)
-   cd base64-app
+   
+   git clone https://github.com/mun1bxD/Base64Application.git
+   
    ```
 
