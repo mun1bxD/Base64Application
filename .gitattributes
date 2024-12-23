@@ -56,6 +56,20 @@
 #*.docx  diff=astextplain
 #*.DOCX  diff=astextplain
 #*.dot   diff=astextplain
+# Ignore CSS files in language statistics
+*.css linguist-detectable=false
+
+# Treat .cs files as primary language
+*.cs linguist-language=C#
+
+# Optionally prioritize JavaScript for your React project
+*.js linguist-language=JavaScript
+*.jsx linguist-language=JavaScript
+
+# Exclude build files (if applicable)
+build/* linguist-detectable=false
+dist/* linguist-detectable=false
+
 #*.DOT   diff=astextplain
 #*.pdf   diff=astextplain
 #*.PDF   diff=astextplain
